@@ -1,0 +1,31 @@
+{
+  "name": "monthly-debt-update",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalolov08/monthly-debt-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalolov08/monthly-debt-update/issues"
+  },
+  "homepage": "https://github.com/jalolov08/monthly-debt-update#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "mongoose": "^8.10.1",
+    "node-cron": "^3.0.3"
+  }
+}
